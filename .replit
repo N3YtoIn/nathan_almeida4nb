@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 modules = ["nodejs-20"]
 [nix]
 channel = "stable-24_05"
+=======
+[[ports]]
+localPort = 3000
+externalPort = 80
+>>>>>>> da8692c (Project: Começo do Projeto inicializando o banco de dados com o Type Script)
