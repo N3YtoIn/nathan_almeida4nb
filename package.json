@@ -1,23 +1,23 @@
 {
-  "name": "nodejs",
+  "name": "nathan_almeida4nb",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node src/server.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
-    "express": "^4.19.2",
-    "pg": "^8.12.0"
+    "express": "^4.21.1",
+    "pg": "^8.13.1"
   },
   "devDependencies": {
-    "@types/express": "^4.17.21",
-    "@types/node": "^22.5.2",
-    "@types/pg": "^8.11.8",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.1",
+    "@types/pg": "^8.11.10",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.4"
+    "typescript": "^5.6.3"
   }
 }

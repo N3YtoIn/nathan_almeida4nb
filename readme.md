@@ -1,1 +1,0 @@
-AULA DE TERÇA-FEIRA
