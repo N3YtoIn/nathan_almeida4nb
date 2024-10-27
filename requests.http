@@ -11,9 +11,9 @@ POST http://localhost:3000/register
 Content-Type: application/json
 
 {
-    "name": "nathan",
-    "email": "nathan.dev@gmail.com",
-    "password": "nathans"
+    "name": "PedroAlison",
+    "email": "pedro@gmail.com",
+    "password": "Pedroca"
 }
 
 ###
@@ -24,6 +24,6 @@ POST http://localhost:3000/login
 Content-Type: application/json
 
 {
-    "email": "nathan.dev@gmail.com",
-    "password": "nathanPass"
+    "email": "pedro@gmail.com",
+    "password": "Pedroca"
 }

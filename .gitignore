@@ -18,6 +18,6 @@ yarn-error.log*
 .vscode/
 .idea/
 .DS_Store
-
+.hintrc
 #package-lock.json
 package-lock.json
