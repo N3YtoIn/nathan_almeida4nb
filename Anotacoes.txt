@@ -8,4 +8,8 @@ Criar Table
 
 npx ts-node src/migrations/migrations.ts
 
+Resolver pg
+
+npm i --save-dev @types/pg
+
 ...
