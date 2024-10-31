@@ -1,0 +1,22 @@
+
+### Requição dos dados da tabela books
+curl -X GET http://localhost:3000/books
+
+
+###
+
+
+### Requisição de Registro
+curl -X POST http://localhost:3000/books -H "Content-Type: application/json" -d '{
+    
+    "title": "Jogador N1", 
+    "author": "Ernest Cline", 
+    "price": "49.90"
+    
+    }'
+
+
+
+
+
+

@@ -5,8 +5,13 @@ import { Book } from '../models/bookModel';
 export class BookRepository {
   private pool: Pool = pool;
 
+  constructor() {
+    this.pool = pool;
+  }
+
+
   async getAllBooks(): Promise<Book[]> {
-    const { rows } = await this.pool.query('SELECT title, author, price FROM books');
+    const { rows } = await this.pool.query('SELECT * FROM books');
     return rows;
   }
 

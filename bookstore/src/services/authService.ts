@@ -12,7 +12,7 @@ export class AuthService {
   // Criação de novo usuário com senha hashed
   async registerUser(name: string, email: string, password: string) {
     const passwordHash = hashPassword(password);
-    const user = await this.userRepository.addUser(name, email, await passwordHash);
+    const user = await this.userRepository.addUser(name, email, passwordHash);
     return user;
   }
 
@@ -21,12 +21,10 @@ export class AuthService {
     const user = await this.userRepository.getUserByEmail(email);
     if (!user) throw new Error('Usuário não encontrado');
 
-        console.log('Senha inserida:', password);
-        console.log('Senha armazenada (hash):', user.passwordHash);
-        console.log('Comparação de senha:', comparePassword(password, user.passwordHash)); // Deve retornar true
+    const isPasswordValid = comparePassword(password, user.passwordhash);
+    console.log(user);
+    if (!isPasswordValid) throw new Error('Senha incorreta');
 
-    const isPasswordValid = comparePassword(password, user.passwordHash);
-      if (!isPasswordValid) throw new Error('Senha incorreta');
     createSession(user.id); // Cria a sessão
     return user;
   }
