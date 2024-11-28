@@ -120,7 +120,7 @@ Essas funcionalidades foram implementadas de forma integrada ao banco de dados e
 `git init`
 
 - Clone o Reposítorio do Projeto:  
-`git clone https://github.com/N3YtoIn/nathan_almeida4nb`
+`git clone https://github.com/N3YtoIn/backEndRepository.git`
 
 - Acesse a pasta:  
 `cd bookstore`
