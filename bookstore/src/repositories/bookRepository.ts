@@ -9,7 +9,6 @@ export class BookRepository {
     this.pool = pool;
   }
 
-
   async getAllBooks(): Promise<Book[]> {
     const { rows } = await this.pool.query('SELECT * FROM books');
     return rows;
