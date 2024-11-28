@@ -10,7 +10,7 @@ https://github.com/GabeeDevs/FinalProjectFront
 ---
 
 #  📚 BookStore 📚 #
-O projeto "BookStore" incluiu funcionalidades de Gerenciamento de Usuários, como login e register, para autenticação e cadastro, além do registro de livros em um banco de dados. Tudo foi desenvolvido utilizando TypeScript no padrão MVC, integrando o Back-end ao Front-end para garantir funcionalidade, segurança e organização do sistema.
+O projeto "BookStore" inclui funcionalidades de Gerenciamento de Usuários, como login e register, para autenticação e cadastro, além do registro de livros em um banco de dados. Tudo foi desenvolvido utilizando TypeScript no padrão MVC, integrando o Back-end ao Front-end para garantir funcionalidade, segurança e organização do sistema.
 
 ## Índice
 - [📚 BookStore 📚](#-bookstore-)
