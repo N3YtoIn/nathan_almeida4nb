@@ -9,11 +9,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
-
-app.use(express.json());
-
 app.use(userRoutes, authRoutes, bookRoutes);
-
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
